@@ -1,3 +1,5 @@
+
+
 //有一个长度为N的花坛，每天开exactly一朵花，给定一个1-N的permutation，代表每天开花的位置。
 //假设某一个时刻，i和j位置的花开了，且i和j之间没有别的花开，那么中间就有一个长度为j-i-1的empty slot（
 //最左的花就考虑和花坛左端的empty slot，最右的考虑和花坛右端的empty slot）。
@@ -22,3 +24,6 @@ class Solution {
         return -1;
     }
 }
+
+
+
