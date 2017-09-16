@@ -1,5 +1,6 @@
-package LeetCode;
-import java.util.*;
+//给一个string，形式"HH:MM"，比如"15:43"。要求返回：利用出现的数字（可以重复，可以不用）组成的时间中，最接近input的下一个时刻
+//比如之前的例子，就是"15:44"。如果input是"23:59"就返回"22:22"。没有时间空间要求。
+
 
 class Solution {
     public String nextTime(String time) {
